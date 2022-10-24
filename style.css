@@ -259,6 +259,8 @@ footer h6 {
 
 .courses {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-template-areas: 
   "course__one course__two"
   "course__twoPointFive course__three"
@@ -302,6 +304,8 @@ max-width: 1440px;
   .courses {
     width: 100%;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-template-areas: 
     "course__one course__two course__twoPointFive" 
     "course__three course__four course__five"
